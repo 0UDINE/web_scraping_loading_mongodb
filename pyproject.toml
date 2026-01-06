@@ -3,4 +3,9 @@ name = "scraping-loading-mongodb"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "matplotlib>=3.10.8",
+    "pymongo>=4.15.5",
+    "requests>=2.32.5",
+]
